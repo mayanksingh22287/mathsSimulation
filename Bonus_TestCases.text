@@ -1,0 +1,22 @@
+TestCase-01
+var xyz
+var abc
+mov R1 $32
+andi R2 $32
+sub R1 R1 R2
+jz R1 xyz
+hlt
+
+TestCase-02
+mov R1 R2
+nandi R3 $12
+mulf R1 R2 R3
+ldi R5 $16
+hlt
+
+TestCase-03
+var x
+ldi R1 $8
+add R1 R2 R3
+jz R1 y
+hlt
